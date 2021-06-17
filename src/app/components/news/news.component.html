@@ -1,0 +1,7 @@
+<h1>News</h1>
+
+<ul *ngIf="news">
+    <li *ngFor="let new of news.articles">
+        <p class="name"> {{new.description}} </p>
+    </li>
+</ul>
